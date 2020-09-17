@@ -28,7 +28,7 @@ public class MyController {
     //指定视图
     //mv.setViewName("WEB-INF/view/show.jsp");
     //使用了视图解析器后，可以省得写路径了
-    mv.setViewName("show");
+    mv.setViewName("show");//git
     return mv;
 
     }

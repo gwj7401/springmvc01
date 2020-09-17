@@ -26,7 +26,9 @@ public class MyController {
     mv.addObject("msg","欢迎使用SpringMvc做web开发");
     mv.addObject("fun","执行的是doSome方法");
     //指定视图
-    mv.setViewName("/show.jsp");
+    //mv.setViewName("WEB-INF/view/show.jsp");
+    //使用了视图解析器后，可以省得写路径了
+    mv.setViewName("show");
     return mv;
 
     }

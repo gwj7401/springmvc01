@@ -5,6 +5,6 @@
 </head>
 <body>
 <p>第一个SpringMvc项目</p>
-<p><a href="some.do">发起一个some.do的请求</a> </p>
+<p><a href="user/some.do">发起一个some.do的请求</a> </p>
 </body>
 </html>

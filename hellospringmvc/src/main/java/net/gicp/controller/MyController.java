@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @Controller 创建控制器对象，对象放在SpringMvc容器里
  */
 @Controller
+@RequestMapping("/user")
 public class MyController {
     /**
      * 处理用户提交的请求，springmvc是使用方法来处理的
@@ -18,7 +19,7 @@ public class MyController {
     /**
      * 准备使用doSome方法来处理some.do请求
      */
-    @RequestMapping(value = "/some.do")
+    @RequestMapping(value = {"/some.do","frist.do"})
     public ModelAndView doSome(){
 
          ModelAndView mv = new ModelAndView();

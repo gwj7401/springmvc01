@@ -4,7 +4,11 @@
     <title>Title</title>
 </head>
 <body>
-<p>第一个SpringMvc项目</p>
-<p><a href="user/some.do">发起一个some.do的请求</a> </p>
+<p>接收请求参数，提交参数给Controler</p>
+<form action="receive.do" method="post">
+    姓名：<input type="text" name="name"><br/>
+    年龄：<input type="text" name="age"><br/>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
